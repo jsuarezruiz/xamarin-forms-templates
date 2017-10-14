@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" ?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="CommunityXamarinFormsTemplates.bbe6f758-8958-4d1d-b32b-78aef9b012d9" Version="1.0" Language="en-US" Publisher="Javier Suárez Ruiz" />
+        <DisplayName>Community Xamarin.Forms Templates</DisplayName>
+        <Description xml:space="preserve">Community Project Templates for Xamarin.Forms development.</Description>
+        <MoreInfo>https://github.com/jsuarezruiz</MoreInfo>
+        <License>license.txt</License>
+        <Icon>Images\xamagon-32.png</Icon>
+        <PreviewImage>Images\xamagon-200.png</PreviewImage>
+        <Tags>xamarin, xamarin.forms, template</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,16.0]" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0,16.0)"  />
+        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[15.0,16.0)"  />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="NuGet.Package" d:Source="File" Path="Packages\Xamarin\xamarin.android.support.design.23.3.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="NuGet.Package" d:Source="File" Path="Packages\Xamarin\xamarin.android.support.v4.23.3.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="NuGet.Package" d:Source="File" Path="Packages\Xamarin\xamarin.android.support.v7.appcompat.23.3.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="NuGet.Package" d:Source="File" Path="Packages\Xamarin\xamarin.android.support.v7.cardview.23.3.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="NuGet.Package" d:Source="File" Path="Packages\Xamarin\xamarin.android.support.v7.mediarouter.23.3.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="NuGet.Package" d:Source="File" Path="Packages\Xamarin\xamarin.android.support.v7.recyclerview.23.3.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="NuGet.Package" d:Source="File" Path="Packages\Xamarin\Xamarin.Android.Support.Animated.Vector.Drawable.23.3.0.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="NuGet.Package" d:Source="File" Path="Packages\Xamarin\xamarin.android.support.vector.drawable.23.3.0.nupkg" d:VsixSubPath="Packages" />
+      <Asset Type="Nuget.Package" d:Source="File" Path="Packages\Xamarin\xamarin.forms.2.3.3.193.nupkg" d:VsixSubPath="Packages" />
+      <Asset Type="Nuget.Package" d:Source="File" Path="Packages\Xamarin\xamarin.forms.3.0.0.201-gtk.nupkg" d:VsixSubPath="Packages" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\EmptyApp.zip" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite DisplayName="C# y Visual Basic" Version="[15.0.25904.2,16.0)" Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.NuGet" Version="[15.0.25904.2,16.0)" DisplayName="Administrador de paquetes NuGet" />
+    </Prerequisites>
+</PackageManifest>

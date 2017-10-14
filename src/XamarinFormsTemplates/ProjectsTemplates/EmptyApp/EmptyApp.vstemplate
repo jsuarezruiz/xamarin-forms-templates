@@ -1,0 +1,35 @@
+﻿<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+	<TemplateData>
+		<Name>Xamarin Forms Empty App Solution Template</Name>
+		<Description>Solution template containing the needed Core, iOS, Android UWP and GTK projects.</Description>
+		<ProjectType>CSharp</ProjectType>
+		<ProjectSubType>
+		</ProjectSubType>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>false</CreateNewFolder>
+		<ProvideDefaultName>false</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<Icon>__TemplateIcon.ico</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectCollection>
+			<ProjectTemplateLink ProjectName="$projectname$" CopyParameters="true">
+				EmptyApp\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.Android" CopyParameters="true">
+				EmptyApp.Android\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.iOS" CopyParameters="true">
+				EmptyApp.iOS\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="$projectname$.UWP" CopyParameters="true">
+				EmptyApp.UWP\MyTemplate.vstemplate
+			</ProjectTemplateLink>		
+			<ProjectTemplateLink ProjectName="$projectname$.GTK" CopyParameters="true">
+				EmptyApp.GTK\MyTemplate.vstemplate
+			</ProjectTemplateLink>
+		</ProjectCollection>
+	</TemplateContent>
+</VSTemplate>
+
