@@ -95,7 +95,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Images\xamagon-350.png" />
-    <Content Include="license.txt" />
+    <Content Include="license.txt">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Libraries\" />

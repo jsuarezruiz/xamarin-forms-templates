@@ -22280,12 +22280,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\javie\\documents\\visual studio 2017\\Projects\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp.UWP\\EmptyApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\javie\\Documents\\GitHub\\xamarin-forms-templates\\src\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp.UWP\\EmptyApp.UWP.csproj",
       "projectName": "EmptyApp.UWP",
-      "projectPath": "C:\\Users\\javie\\documents\\visual studio 2017\\Projects\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp.UWP\\EmptyApp.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\javie\\documents\\visual studio 2017\\Projects\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp.UWP\\project.json",
+      "projectPath": "C:\\Users\\javie\\Documents\\GitHub\\xamarin-forms-templates\\src\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp.UWP\\EmptyApp.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\javie\\Documents\\GitHub\\xamarin-forms-templates\\src\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp.UWP\\project.json",
       "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\javie\\documents\\visual studio 2017\\Projects\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp.UWP\\obj\\",
+      "outputPath": "C:\\Users\\javie\\Documents\\GitHub\\xamarin-forms-templates\\src\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22304,8 +22304,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "C:\\Users\\javie\\documents\\visual studio 2017\\Projects\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp\\EmptyApp.csproj": {
-              "projectPath": "C:\\Users\\javie\\documents\\visual studio 2017\\Projects\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp\\EmptyApp.csproj"
+            "C:\\Users\\javie\\Documents\\GitHub\\xamarin-forms-templates\\src\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp\\EmptyApp.csproj": {
+              "projectPath": "C:\\Users\\javie\\Documents\\GitHub\\xamarin-forms-templates\\src\\XamarinFormsTemplates\\Projects\\EmptyApp\\EmptyApp\\EmptyApp.csproj"
             }
           }
         }
