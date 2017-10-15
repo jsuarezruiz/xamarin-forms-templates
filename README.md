@@ -2,9 +2,11 @@
 
 **Templates** for Xamarin.Forms / C# projects that use the latests pre-releases (**Xamarin.Forms 3.0** features).
 
+![](images/xamarin-forms-templates-vsix.png)
+
 ## Templates
 
-Templates support the following platforms:
+Templates support the following **platforms**:
 
 - iOS
 - Android
